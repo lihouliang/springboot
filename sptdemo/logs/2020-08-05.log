@@ -1,0 +1,92 @@
+[INFO]2020-08-05 16:18:15,613 - Starting SptdemoWeb1Application on DESKTOP-VUFQIVF with PID 16640 (D:\sptdemo\sptdemo-web1\target\classes started by bdqn-li in D:\sptdemo)
+[INFO]2020-08-05 16:18:15,634 - No active profile set, falling back to default profiles: default
+[INFO]2020-08-05 16:18:23,726 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2020-08-05 16:18:23,851 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2020-08-05 16:18:23,852 - Starting service [Tomcat]
+[INFO]2020-08-05 16:18:23,853 - Starting Servlet engine: [Apache Tomcat/9.0.37]
+[INFO]2020-08-05 16:18:24,507 - Initializing Spring embedded WebApplicationContext
+[INFO]2020-08-05 16:18:24,508 - Root WebApplicationContext: initialization completed in 8514 ms
+[INFO]2020-08-05 16:18:27,481 - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO]2020-08-05 16:18:29,722 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2020-08-05 16:18:29,963 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2020-08-05 16:18:30,207 - Started SptdemoWeb1Application in 17.55 seconds (JVM running for 27.407)
+[INFO]2020-08-05 16:18:52,882 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO]2020-08-05 16:18:52,882 - Initializing Servlet 'dispatcherServlet'
+[INFO]2020-08-05 16:18:52,926 - Completed initialization in 43 ms
+[INFO]2020-08-05 16:18:53,298 - HikariPool-1 - Starting...
+[WARN]2020-08-05 16:18:53,305 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+[INFO]2020-08-05 16:18:54,263 - HikariPool-1 - Start completed.
+[INFO]2020-08-05 16:34:41,921 - Starting SptdemoWeb1Application on DESKTOP-VUFQIVF with PID 876 (D:\sptdemo\sptdemo-web1\target\classes started by bdqn-li in D:\sptdemo)
+[INFO]2020-08-05 16:34:41,921 - No active profile set, falling back to default profiles: default
+[INFO]2020-08-05 16:34:42,219 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8ff3084: startup date [Wed Aug 05 16:34:42 CST 2020]; root of context hierarchy
+[INFO]2020-08-05 16:34:46,597 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2020-08-05 16:34:46,629 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2020-08-05 16:34:46,644 - Starting service [Tomcat]
+[INFO]2020-08-05 16:34:46,644 - Starting Servlet Engine: Apache Tomcat/8.5.31
+[INFO]2020-08-05 16:34:46,675 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Java\jdk1.8\bin;D:\svn\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\Git\bin;C:\Users\bdqn-li\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO]2020-08-05 16:34:47,113 - Initializing Spring embedded WebApplicationContext
+[INFO]2020-08-05 16:34:47,113 - Root WebApplicationContext: initialization completed in 4894 ms
+[INFO]2020-08-05 16:34:47,597 - Servlet dispatcherServlet mapped to [/]
+[INFO]2020-08-05 16:34:47,628 - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO]2020-08-05 16:34:47,628 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO]2020-08-05 16:34:47,628 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO]2020-08-05 16:34:47,628 - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO]2020-08-05 16:34:48,988 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO]2020-08-05 16:34:49,544 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8ff3084: startup date [Wed Aug 05 16:34:42 CST 2020]; root of context hierarchy
+[INFO]2020-08-05 16:34:49,669 - Mapped "{[/index]}" onto public java.lang.String com.example.sptdemoweb1.controller.IndexController.index()
+[INFO]2020-08-05 16:34:49,669 - Mapped "{[/test.do]}" onto public boolean com.example.sptdemoweb1.controller.IndexController.get()
+[INFO]2020-08-05 16:34:49,669 - Mapped "{[/getkhmc.do]}" onto public java.util.List<com.example.sptdemoweb1.pojo.Khmc> com.example.sptdemoweb1.controller.IndexController.getKhmc()
+[INFO]2020-08-05 16:34:49,685 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO]2020-08-05 16:34:49,685 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO]2020-08-05 16:34:49,778 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO]2020-08-05 16:34:49,778 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO]2020-08-05 16:34:51,216 - LiveReload server is running on port 35729
+[INFO]2020-08-05 16:34:51,372 - Registering beans for JMX exposure on startup
+[INFO]2020-08-05 16:34:51,372 - Bean with name 'dataSource' has been autodetected for JMX exposure
+[INFO]2020-08-05 16:34:51,388 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+[INFO]2020-08-05 16:34:51,497 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2020-08-05 16:34:51,528 - Using a shared selector for servlet write/read
+[INFO]2020-08-05 16:34:51,872 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2020-08-05 16:34:51,872 - Started SptdemoWeb1Application in 12.458 seconds (JVM running for 19.079)
+[INFO]2020-08-05 16:34:58,170 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+[INFO]2020-08-05 16:34:58,170 - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO]2020-08-05 16:34:58,357 - FrameworkServlet 'dispatcherServlet': initialization completed in 187 ms
+[INFO]2020-08-05 16:34:58,894 - HikariPool-1 - Starting...
+[INFO]2020-08-05 16:35:00,151 - HikariPool-1 - Start completed.
+[INFO]2020-08-05 16:35:19,358 - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8ff3084: startup date [Wed Aug 05 16:34:42 CST 2020]; root of context hierarchy
+[INFO]2020-08-05 16:35:19,358 - Unregistering JMX-exposed beans on shutdown
+[INFO]2020-08-05 16:35:19,358 - Unregistering JMX-exposed beans
+[INFO]2020-08-05 16:35:19,358 - HikariPool-1 - Shutdown initiated...
+[INFO]2020-08-05 16:35:19,451 - HikariPool-1 - Shutdown completed.
+[INFO]2020-08-05 16:35:23,486 - Starting SptdemoWeb1Application on DESKTOP-VUFQIVF with PID 876 (D:\sptdemo\sptdemo-web1\target\classes started by bdqn-li in D:\sptdemo)
+[INFO]2020-08-05 16:35:23,502 - No active profile set, falling back to default profiles: default
+[INFO]2020-08-05 16:35:23,502 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8b68de: startup date [Wed Aug 05 16:35:23 CST 2020]; root of context hierarchy
+[INFO]2020-08-05 16:35:25,067 - Tomcat initialized with port(s): 8080 (http)
+[INFO]2020-08-05 16:35:25,067 - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO]2020-08-05 16:35:25,067 - Starting service [Tomcat]
+[INFO]2020-08-05 16:35:25,067 - Starting Servlet Engine: Apache Tomcat/8.5.31
+[INFO]2020-08-05 16:35:25,145 - Initializing Spring embedded WebApplicationContext
+[INFO]2020-08-05 16:35:25,145 - Root WebApplicationContext: initialization completed in 1643 ms
+[INFO]2020-08-05 16:35:25,239 - Servlet dispatcherServlet mapped to [/]
+[INFO]2020-08-05 16:35:25,239 - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO]2020-08-05 16:35:25,239 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO]2020-08-05 16:35:25,239 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[INFO]2020-08-05 16:35:25,239 - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO]2020-08-05 16:35:25,426 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO]2020-08-05 16:35:25,676 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8b68de: startup date [Wed Aug 05 16:35:23 CST 2020]; root of context hierarchy
+[INFO]2020-08-05 16:35:25,692 - Mapped "{[/index]}" onto public java.lang.String com.example.sptdemoweb1.controller.IndexController.index()
+[INFO]2020-08-05 16:35:25,692 - Mapped "{[/test.do]}" onto public boolean com.example.sptdemoweb1.controller.IndexController.get()
+[INFO]2020-08-05 16:35:25,707 - Mapped "{[/getkhmc.do]}" onto public java.util.List<com.example.sptdemoweb1.pojo.Khmc> com.example.sptdemoweb1.controller.IndexController.getKhmc()
+[INFO]2020-08-05 16:35:25,707 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO]2020-08-05 16:35:25,707 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO]2020-08-05 16:35:25,754 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO]2020-08-05 16:35:25,754 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO]2020-08-05 16:35:26,082 - LiveReload server is running on port 35729
+[INFO]2020-08-05 16:35:26,145 - Registering beans for JMX exposure on startup
+[INFO]2020-08-05 16:35:26,145 - Bean with name 'dataSource' has been autodetected for JMX exposure
+[INFO]2020-08-05 16:35:26,160 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+[INFO]2020-08-05 16:35:26,192 - Starting ProtocolHandler ["http-nio-8080"]
+[INFO]2020-08-05 16:35:26,192 - Using a shared selector for servlet write/read
+[INFO]2020-08-05 16:35:26,207 - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO]2020-08-05 16:35:26,223 - Started SptdemoWeb1Application in 2.846 seconds (JVM running for 53.419)
+[INFO]2020-08-05 16:35:26,223 - Condition evaluation unchanged
